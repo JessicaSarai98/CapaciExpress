@@ -1,7 +1,6 @@
 package Vista;
 
 import Modelo.SqlUsuarios;
-import Modelo.hash;
 import Modelo.usuarios;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

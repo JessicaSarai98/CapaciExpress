@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 public class registro extends javax.swing.JFrame {
 
     public static final String BASE = "ccepsssql";
-    public static final String URL = "jdbc:mysql://localhost:3306/" + BASE;
+    public static final String URL = "jdbc:mysql://192.168.236.45:3306/" + BASE;
     public static final String USERNAME = "root";
     public static final String PASSWORD = "Rfmb5851";
 
