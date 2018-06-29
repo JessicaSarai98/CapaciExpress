@@ -13,9 +13,9 @@ public class Conexion {
     private Connection con = null;
 
     public Connection getConexion() {
-
+        
         try {
-
+            
             Class.forName("com.mysql.jdbc.Driver");
             
             con = (com.mysql.jdbc.Connection) DriverManager.getConnection(URL, USERNAME, PASSWORD);
@@ -28,5 +28,5 @@ public class Conexion {
         }
         return con;
     }
-
+    
 }

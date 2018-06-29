@@ -10,7 +10,11 @@ import javax.swing.JOptionPane;
 public class Conexion {
 
     public static final String BASE = "ccepsssql";
+<<<<<<< HEAD
     public static final String URL = "jdbc:mysql://192.168.236.45:3306/"+BASE;
+=======
+    public static final String URL = "jdbc:mysql://LAPTOP-4T4LV7H9:3306/"+BASE;
+>>>>>>> 7d5133f9c891db40b3b648ee8409f6286aa98d9a
     public static final String USERNAME = "root";
     public static final String PASSWORD = "Rfmb5851";
     private Connection con = null;
